@@ -188,16 +188,8 @@ function ShowMenuDeploy()
 
 do
 {
-  if ($computerName -eq "DERZSQL10")
-  {
-    $backColor   = "Blue"
-    $foreColor   = "White"
-  }
-  else
-  {
-    $backColor   = "Gray"
-    $foreColor   = "Black"
-  }
+  $backColor   = "Blue"
+  $foreColor   = "White"
 
   $PSName      = ""
   $ServerList  = ""
